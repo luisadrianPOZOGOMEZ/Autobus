@@ -1,0 +1,73 @@
+.container-login {
+    border: 1px solid red;
+    height: 540px;
+    width: 500px;
+    background-color: #36393F;
+    display: flex;
+    align-items: center;
+    
+} 
+
+.Logo {
+    /* border: 1px solid blue; */
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    position: relative; 
+    top: -39%;
+    left: 40%; 
+} 
+
+.form-login {
+    /* border: 1px solid yellow; */
+    padding: 2px;
+    height: 400px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    right: 6%;
+}
+
+.username {
+    /* border: 1px solid red ; */
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.password {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #B9BBBE;
+}
+
+form input {
+    /* background-color: rgba(118, 118, 118, .5); */
+    background-color: #202225;
+    height: 50%;
+}
+
+.boton {
+    height: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #5865F2; 
+    color: white;
+}
+
+.link {
+    color: #00AFF4;
+}
+
+.text {
+    color: white;
+}

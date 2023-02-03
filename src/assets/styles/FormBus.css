@@ -1,0 +1,76 @@
+.container-Bus { 
+    height: 600px;
+    width: 570px;
+    background-color: #36393F;
+    display: flex;
+    align-items: center;
+}
+
+.FormBus {
+    padding: 2px;
+    height: 400px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.padre-1 {
+    display: flex;
+}
+
+.one-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.two-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.padre-2 {
+    display: flex;
+}
+
+.tree-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.four-div {
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-alta {
+    height: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #5865F2; 
+    color: white;
+}
+
+.textos {
+    color: white;
+}
+
+.Logo {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    position: relative; 
+    top: -39%;
+    left: 40%;
+}
